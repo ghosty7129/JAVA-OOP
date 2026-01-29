@@ -1,12 +1,12 @@
 public class Drink {
 
     private String drink_name;
-    private int price;
+    private double price;
     private int milk_needed;
     private int water_needed;
-    private int coffee_needed;  
+    private int coffee_needed;
 
-    public Drink(String drink_name, int price, int milk_needed, int water_needed, int coffee_needed) {
+    public Drink(String drink_name, double price, int milk_needed, int water_needed, int coffee_needed) {
         this.drink_name = drink_name;
         this.price = price;
         this.milk_needed = milk_needed;
@@ -18,7 +18,7 @@ public class Drink {
         return drink_name;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
